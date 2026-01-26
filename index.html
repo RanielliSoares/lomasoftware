@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loma Software - Desenvolvimento Web & Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Loma Software</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato" class="btn-nav">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="line">Transformamos</span>
+                        <span class="line">Suas <span class="highlight">Ideias</span></span>
+                        <span class="line">Em Realidade Digital</span>
+                    </h1>
+                    <p class="hero-description">
+                        Desenvolvimento de sites, landing pages e sistemas web de alta performance
+                        com tecnologia de ponta e design moderno.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">Iniciar Projeto</a>
+                        <a href="#portfolio" class="btn btn-secondary">Ver Portfólio</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="150">0</span>
+                            <span class="stat-label">Projetos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="98">0</span>
+                            <span class="stat-label">% Satisfação</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Anos Mercado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">💻</div>
+                        <div class="card-text">Sites Modernos</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">🚀</div>
+                        <div class="card-text">Alta Performance</div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">📱</div>
+                        <div class="card-text">100% Responsivo</div>
+                    </div>
+                    <div class="central-orb"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossos Serviços</span>
+                <h2 class="section-title">Soluções Completas para Seu Negócio</h2>
+                <p class="section-description">
+                    Oferecemos serviços de desenvolvimento web com excelência técnica e design inovador
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Sites Institucionais</h3>
+                    <p>Sites profissionais e elegantes que transmitem credibilidade e fortalecem sua marca no mercado digital.</p>
+                    <ul class="service-features">
+                        <li>Design Personalizado</li>
+                        <li>SEO Otimizado</li>
+                        <li>Gestão de Conteúdo</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Landing Pages</h3>
+                    <p>Páginas de vendas otimizadas para conversão máxima, ideais para campanhas de marketing digital.</p>
+                    <ul class="service-features">
+                        <li>Alta Conversão</li>
+                        <li>Analytics Integrado</li>
+                        <li>Testes A/B</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Sistemas Web</h3>
+                    <p>Sistemas personalizados e escaláveis que automatizam processos e aumentam a produtividade.</p>
+                    <ul class="service-features">
+                        <li>Arquitetura Robusta</li>
+                        <li>Integração de APIs</li>
+                        <li>Painéis Administrativos</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🛒</div>
+                    <h3>E-commerce</h3>
+                    <p>Lojas virtuais completas com sistema de pagamento, gestão de produtos e experiência única de compra.</p>
+                    <ul class="service-features">
+                        <li>Checkout Otimizado</li>
+                        <li>Pagamentos Seguros</li>
+                        <li>Gestão Completa</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Design Responsivo</h3>
+                    <p>Interfaces adaptáveis que funcionam perfeitamente em qualquer dispositivo, do smartphone ao desktop.</p>
+                    <ul class="service-features">
+                        <li>Mobile First</li>
+                        <li>UX/UI Design</li>
+                        <li>Cross-browser</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Manutenção & Suporte</h3>
+                    <p>Suporte técnico contínuo, atualizações e melhorias para manter seu projeto sempre atualizado.</p>
+                    <ul class="service-features">
+                        <li>Suporte 24/7</li>
+                        <li>Atualizações</li>
+                        <li>Backup Automático</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nosso Trabalho</span>
+                <h2 class="section-title">Projetos que Fazem a Diferença</h2>
+                <p class="section-description">
+                    Conheça alguns dos projetos que desenvolvemos com dedicação e inovação
+                </p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>TechStore E-commerce</h3>
+                            <p>Loja virtual completa com painel administrativo</p>
+                            <span class="portfolio-tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>HealthCare System</h3>
+                            <p>Sistema de gestão para clínicas médicas</p>
+                            <span class="portfolio-tag">Sistema Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>LuxuryHomes Landing</h3>
+                            <p>Landing page de vendas para imobiliária</p>
+                            <span class="portfolio-tag">Landing Page</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>RestaurantPro Website</h3>
+                            <p>Site institucional com cardápio online</p>
+                            <span class="portfolio-tag">Site</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>FitApp Dashboard</h3>
+                            <p>Painel de controle para academias</p>
+                            <span class="portfolio-tag">Sistema Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>Marketing Agency</h3>
+                            <p>Site corporativo com portfólio integrado</p>
+                            <span class="portfolio-tag">Site</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "A Loma Software transformou nossa presença digital. O site ficou incrível e as vendas aumentaram 200%!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4>Maria Silva</h4>
+                            <span>CEO, TechStore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Profissionalismo e qualidade excepcionais. O sistema desenvolvido otimizou todos os nossos processos."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <h4>João Santos</h4>
+                            <span>Diretor, HealthCare</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Superou todas as expectativas! Landing page moderna e com alta taxa de conversão."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <h4>Ana Costa</h4>
+                            <span>Marketing, LuxuryHomes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Pronto Para Transformar Seu Negócio?</h2>
+                <p class="cta-description">
+                    Entre em contato hoje e descubra como podemos levar sua empresa para o próximo nível
+                </p>
+                <a href="#contato" class="btn btn-large">Solicitar Orçamento Gratuito</a>
+            </div>
+            <div class="cta-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fale Conosco</span>
+                <h2 class="section-title">Vamos Conversar Sobre Seu Projeto</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@lomasoftware.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 9 9999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>São Paulo, SP - Brasil</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Seu Telefone">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="site">Site Institucional</option>
+                            <option value="landing">Landing Page</option>
+                            <option value="sistema">Sistema Web</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Conte-nos sobre seu projeto" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">Loma Software</span>
+                    </div>
+                    <p>Transformando ideias em soluções digitais desde 2021</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Sites</a></li>
+                        <li><a href="#servicos">Landing Pages</a></li>
+                        <li><a href="#servicos">Sistemas Web</a></li>
+                        <li><a href="#servicos">E-commerce</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Loma Software. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
