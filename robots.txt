@@ -1,0 +1,19 @@
+# robots.txt para Loma Software House
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.lomasoftware.com.br/sitemap.xml
+
+# Crawl-delay (opcional - ajuda a não sobrecarregar o servidor)
+Crawl-delay: 1
+
+# Bloquear arquivos desnecessários
+Disallow: /assets/*.jpg$
+Disallow: /assets/*.png$
+Disallow: /assets/*.gif$
+
+# Permitir rastreamento de CSS e JS (importante para SEO moderno)
+Allow: /*.css$
+Allow: /*.js$
